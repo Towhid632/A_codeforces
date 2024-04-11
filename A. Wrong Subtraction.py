@@ -13,5 +13,5 @@ def wrongsubs(n, k):
     for i in range(len(n)):
         res += str(n[i])
     print(res)
-
-wrongsubs(1000000000, 9)
+[n, k] = [int(item) for item in  list(input().split(" "))]
+wrongsubs(n, k)
